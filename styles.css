@@ -1,0 +1,134 @@
+/* CSS Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Heder Section*/
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #333;
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: dimgray;
+}
+
+.active {
+	background-color: forestgreen;
+}
+
+h1 {
+	text-align: center;
+	margin: 25px;
+	font-size: 4rem;
+	font-family: "Fredoka One", cursive;
+}
+
+/* Main Section*/
+
+.container {
+	border: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+	width: 99%;
+	line-height: 80px;
+	margin: 20px;
+}
+.container_txt {
+	border: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+	width: 99%;
+	line-height: 50px;
+	margin: 20px;
+}
+
+/* COLORS */
+h2 {
+	font-size: 35px;
+	width: 1rem;
+	font-family: "Fredoka One", cursive;
+}
+
+.colorName {
+	font-size: 25px;
+	font-family: "Teko", sans-serif;
+}
+
+.color_1 {
+	background-color: #11648c;
+	width: 150px;
+	height: 100%;
+	text-align: center;
+}
+.color_2 {
+	background-color: #52c7ff;
+	width: 150px;
+	height: 100%;
+}
+.color_3 {
+	background-color: #30a2d9;
+	width: 150px;
+	height: 100%;
+}
+.color_4 {
+	background-color: #8f4f01;
+	width: 150px;
+	height: 100%;
+}
+.color_5 {
+	background-color: #dd810f;
+	width: 150px;
+	height: 100%;
+}
+
+/* FONTS */
+
+.fontName {
+	font-size: 20px;
+}
+.fontExample_1 {
+	font-size: 22px;
+	font-family: "Staatliches", cursive;
+}
+.fontExample_2 {
+	font-size: 30px;
+	font-family: "Teko", sans-serif;
+}
+.fontExample_3 {
+	font-size: 22px;
+	font-family: "Fredoka One", cursive;
+}
+
+/* TEXT STYLES */
+
+.textName {
+	font-size: 20px;
+}
+
+#TextStyles {
+	margin-right: 20px;
+}
